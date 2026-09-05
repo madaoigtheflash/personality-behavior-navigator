@@ -1,0 +1,6 @@
+interface:
+  display_name: "人格行为导航"
+  short_description: "用星座原型、MBTI 与八维形成可验证的相处和成长方案"
+  default_prompt: "使用 $personality-behavior-navigator 分析我的行为模式，区分事实、类型假设与替代解释，并给出可验证的调整动作。"
+policy:
+  allow_implicit_invocation: true

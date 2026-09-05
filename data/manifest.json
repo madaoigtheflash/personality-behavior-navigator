@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-09-05T12:48:39.588013+00:00",
+  "vector_method": "signed feature hashing over Chinese character 1-4 grams and alphanumeric tokens",
+  "vector_dim": 384,
+  "retrieval": "cosine vector + BM25 keyword + metadata boost, fused with reciprocal rank fusion",
+  "counts": {
+    "behavior": 768,
+    "combination": 192,
+    "consensus": 6,
+    "function": 8,
+    "mbti": 16,
+    "protocol": 5,
+    "zodiac": 12
+  },
+  "total_records": 1007,
+  "expected": {
+    "zodiac": 12,
+    "mbti": 16,
+    "function": 8,
+    "combination": 192,
+    "behavior": 768,
+    "contexts_per_combination": 4
+  },
+  "source_hashes": {
+    "MBTI与荣格八维关系识别参考.md": "79bae1ec0193f9c4cce8ff2d0ef4a9e0d8e2253e726403126d3ad4345c49154a",
+    "星座-MBTI-荣格八维待人处事识别与调整系统-可行性方案.md": "173c7275945b6a02835c0a3085712ebe97da893875afb069e780ca0f8f172605",
+    "GitHub项目参考-星座MBTI荣格八维与行为调整系统.md": "a7850e54deb03660577829d36989ea94319f830c070a48299a8336eb51976cd9"
+  },
+  "knowledge_sha256": "0f2450af5411b8e1dc492c509c07e458c4eb06d26a272c3ece5f0e1db789a77e"
+}
